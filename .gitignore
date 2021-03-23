@@ -5,3 +5,5 @@ data/
 *.csv
 *.xlsx
 *.txt
+*.pdf
+*.pptx
