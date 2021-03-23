@@ -1,6 +1,5 @@
 세종시 주택 시장 특성 분석 - 세종런킹덤 (태영&진영 👭)  
 ==========    
-  
 ## 세종시 주택 시장 특성을 쉽고 명확히 보이도록 시각화
 
 ### __사용 Tool__
@@ -9,50 +8,60 @@
 
 ### __1. join_code.ipynb__
 - __사용한 데이터__
-1. 세종시 상업업무용 실거래가
-2. 세종시 토지 실거래가
-3. 세종시 분양권 실거래가
-4. 세종시 지역코드 데이터
+1. 세종시 상업업무용 실거래가.csv
+2. 세종시 토지 실거래가.csv
+3. 세종시 분양권 실거래가.csv
+4. 세종시 지역코드 데이터.csv
 - __Goal__  
 상업업무용 실거래가 데이터, 세종시 토지 실거래가 데이터,  세종시 분양권 실거래가 데이터에
 공간 데이터와 매칭시키기 위해 주소체계(지역코드) 생성 (외부 데이터 이용)
 
 ### __2. join_data.ipynb__
 - __사용한 데이터__
-1. 세종시 아파트 매매 실거래가
-2. 세종시 연립다세대 매매 실거래가
-3. 세종시 단독다가구 매매 실거래가
-4. 세종시 오피스텔 매매 실거래가
-5. 세종시 아파트 전월세 실거래가
-6. 세종시 연립다세대 전월세 실거래가
-7. 세종시 단독다가구 전월세 실거래가
-8. 세종시 오피스텔 전월세 실거래가
-9. 세종시 지역코드 데이터
+1. 세종시 아파트 매매 실거래가.csv
+2. 세종시 연립다세대 매매 실거래가.csv
+3. 세종시 단독다가구 매매 실거래가.csv
+4. 세종시 오피스텔 매매 실거래가.csv
+5. 세종시 아파트 전월세 실거래가.csv
+6. 세종시 연립다세대 전월세 실거래가.csv
+7. 세종시 단독다가구 전월세 실거래가.csv
+8. 세종시 오피스텔 전월세 실거래가.csv
+9. 세종시 지역코드 데이터.csv
+10. 세종시 법정경계 읍면동.geojson (공간 데이터)
+11. 세종시 행정경계 읍면동.geojson (공간 데이터)
 - __Goal__  
 아파트, 연립다세대, 단독다가구, 오피스텔 실거래가 데이터
 한 파일로 합친 후 공간 데이터와 매칭시키기 위해 주소체계(지역코드) 생성 (외부 데이터 이용)
 
 - __시각화__  
-1. 아파트 매매 데이터  
-
-<img width="800" alt="아파트매매시장" src="https://user-images.githubusercontent.com/61795757/112185869-f7061300-8c43-11eb-8d04-a73b2d43d045.png">
-
-2. 아파트 전세 데이터
-
-<img width="800" alt="아파트전세시장" src="https://user-images.githubusercontent.com/61795757/112186224-464c4380-8c44-11eb-99cc-07bcb85a4ffe.png">
-
-3. 주택 매매 전체 현황
+1. 주택 매매 전체 현황(주택유형별 거래비율, 주택거래량)
 
 <img width="800" alt="주택매매전체" src="https://user-images.githubusercontent.com/61795757/112186594-a5aa5380-8c44-11eb-9777-0fc2f5680aef.png">
 
-4. 주택 전/월세 현황
+2. 주택 전/월세 현황 (전체 전/월세 현황, 주택유형별 거래비율)
 
 <img width="800" alt="주택월세,전세" src="https://user-images.githubusercontent.com/61795757/112186931-f28e2a00-8c44-11eb-94e8-203551caff9a.png">
 
+3. 아파트 매매시장분석(거래량 및 평당 금액 추이, 거래금액, 거래량, 가격상승)  
+
+<img width="800" alt="아파트매매시장" src="https://user-images.githubusercontent.com/61795757/112185869-f7061300-8c43-11eb-8d04-a73b2d43d045.png">
+
+4. 아파트 전세 데이터(거래량 및 평당 금액 추이, 거래금액, 거래량, 가격상승)
+
+<img width="800" alt="아파트전세시장" src="https://user-images.githubusercontent.com/61795757/112186224-464c4380-8c44-11eb-99cc-07bcb85a4ffe.png">
+
+5. 단독다가구 매매시장 분석(거래량 및 평당 금액 추이, 거래금액, 거래량, 가격상승)
+
+<img width="800" alt="단독다가구" src="https://user-images.githubusercontent.com/61795757/112197807-d2179d00-8c4f-11eb-8914-72f0bfc2e525.png">
+
+6. 연립다세대 매매시장 분석(거래량 및 평당 금액 추이, 거래금액, 거래량, 가격상승)
+
+<img width="800" alt="연립다세대" src="https://user-images.githubusercontent.com/61795757/112198107-1f940a00-8c50-11eb-821c-d40f6e3c9406.png">
+
 ### __3. code_name_merge.ipynb__
 - __사용한 데이터__
-1. 세종시 도로명주소 건물
-2. 코드정의서
+1. 세종시 도로명주소 건물.geojson
+2. 코드정의서.xlsx
 
 - __Goal__  
 세종시 도로명 주소 건물 파일에서 건물 코드와 건물 구분 코드를 코드명으로 명시
@@ -62,7 +71,7 @@
 
 ### __4. population_preprocess.ipynb__
 - __사용한 데이터__  
-세종시 연령별 인구현황
+세종시 연령별 인구현황.csv
 
 
 - __Goal__  
@@ -73,7 +82,7 @@
 
 ### __5. 세대구성_preprocess.ipynb__
 - __사용한 데이터__  
-세종시 지역별 세대원수별 세대수
+세종시 지역별 세대원수별 세대수.csv
 
 
 - __Goal__  
@@ -85,8 +94,8 @@
 
 ### __6. 매매_분양권비교.ipynb__
 - __사용한 데이터__  
-1. 세종시 주택 거래 매매 데이터 (join_data.ipynb 사용 후)
-2. 세종시 분양권 거래 데이터 (join_code.ipynb 파일 사용 후)
+1. 세종시 주택 거래 매매 데이터.csv (join_data.ipynb 사용 후)
+2. 세종시 분양권 거래 데이터.csv (join_code.ipynb 파일 사용 후)
 
 - __Goal__  
 같은 유형의 주택에 대해 매매와 분양권 거래 추이를 비교해보고자 매매 데이터와 분양권 거래 데이터 MERGE
@@ -94,8 +103,8 @@
 
 ### __7. 매매_전월세비교.ipynb__
 - __사용한 데이터__  
-1. 세종시 주택 거래 매매 데이터 (join_data.ipynb 사용 후)
-2. 세종시 주택 거래 전월세 데이터 (join_data.ipynb 사용 후)
+1. 세종시 주택 거래 매매 데이터.csv (join_data.ipynb 사용 후)
+2. 세종시 주택 거래 전월세 데이터.csv (join_data.ipynb 사용 후)
 
 
 - __Goal__  
@@ -104,7 +113,9 @@
 - __시각화__
 <img width="800" alt="전세가격추이" src="https://user-images.githubusercontent.com/61795757/112186417-7562b500-8c44-11eb-9b68-dac596d457e0.png">
 
-- - -
+### __그 외 시각화__
+- __상권분석__ (상가 수, 상권 발달 현황)  
+<img width="800" alt="상권분석" src="https://user-images.githubusercontent.com/61795757/112197953-f8d5d380-8c4f-11eb-89c3-759eabedab46.png">
 - - -
 ### Contributor
 - __Data Preprocessing__: 안태영 [![Instagram Badge](http://img.shields.io/badge/-Instagram-white?style=flat&logo=Instagram&link=https://instagram.com/_tae.0_/=https://instagram.com/_tae.0_/)](https://instagram.com/_tae.0_) 
