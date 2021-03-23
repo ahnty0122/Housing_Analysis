@@ -1,7 +1,7 @@
 세종시 주택 시장 특성 분석  
 ==========    
   
-## 세종시 주택 시장 특성을 쉽고 명확히 보이도록 시각화하기 위한 전처리 과정
+## 세종시 주택 시장 특성을 쉽고 명확히 보이도록 시각화
 
 ### __사용 Tool__
 - Tableau
@@ -103,3 +103,9 @@
 
 - __시각화__
 <img width="800" alt="전세가격추이" src="https://user-images.githubusercontent.com/61795757/112186417-7562b500-8c44-11eb-9b68-dac596d457e0.png">
+
+- - -
+- - -
+### Contributor
+- __Data Preprocessing__: 안태영 [![Instagram Badge](http://img.shields.io/badge/-Instagram-white?style=flat&logo=Instagram&link=https://instagram.com/_tae.0_/=https://instagram.com/_tae.0_/)](https://instagram.com/_tae.0_) 
+- __Data Visualization__: 안진영 [![Instagram Badge](http://img.shields.io/badge/-Instagram-white?style=flat&logo=Instagram&link=https://instagram.com/_tae.0_/=https://instagram.com/1004jin0/)](https://instagram.com/1004jin0)
