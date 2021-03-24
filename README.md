@@ -116,7 +116,8 @@
 ### __그 외 시각화__
 - __상권분석__ (상가 수, 상권 발달 현황)  
 <img width="800" alt="상권분석" src="https://user-images.githubusercontent.com/61795757/112197953-f8d5d380-8c4f-11eb-89c3-759eabedab46.png">
+
 - - -
-### Contributor
+### __Contributor__
 - __Data Preprocessing__: 안태영 [![Instagram Badge](http://img.shields.io/badge/-Instagram-white?style=flat&logo=Instagram&link=https://instagram.com/_tae.0_/=https://instagram.com/_tae.0_/)](https://instagram.com/_tae.0_) 
 - __Data Visualization__: 안진영 [![Instagram Badge](http://img.shields.io/badge/-Instagram-white?style=flat&logo=Instagram&link=https://instagram.com/_tae.0_/=https://instagram.com/1004jin0/)](https://instagram.com/1004jin0)
